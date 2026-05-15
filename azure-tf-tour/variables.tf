@@ -8,11 +8,10 @@ variable "build_location" {
 variable "rg_name" {
   type = string
   default = "myAzureRG"
-
 }
 
 variable "vnet_name" {
   type        = string
   description = "The name of the Azure Virtual Network."
-  default     = "my-vnet-name"
+  default     = "Brad_vNET"
 }
